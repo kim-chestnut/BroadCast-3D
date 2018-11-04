@@ -4,6 +4,6 @@
 
 **实例**：
 
-<iframe width="560" height="315" src="material/1.wmv" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="./material/1.wmv" frameborder="0" allowfullscreen></iframe>
 
 
