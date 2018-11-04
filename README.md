@@ -6,9 +6,9 @@
 
 ![实例](./material/1.png)
 
-## 依赖：
+## 依赖
 原生JS实现，无需任何依赖
-## 下载：
+## 下载
 ```git
   https://github.com/hubvue/BroadCast-3D.git
 ```
@@ -17,4 +17,18 @@
 ```HTML
   <script src="BroadCast-3D/BroadCast.js"> </script>
 ```
+## 实例
+HTML文件
+```HTML
+  <div id="box"></div>
+```
+JavaScript文件
+```javascript
+  Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1);
+```
+或者
+```javascript
+  new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1);
+```
+
 
