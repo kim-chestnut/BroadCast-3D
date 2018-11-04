@@ -4,6 +4,6 @@
 
 **实例**：
 
-![实例](./material/1.jpg)
+![实例](./material/1.png)
 
 
