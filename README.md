@@ -62,7 +62,7 @@ JavaScript文件
 
 可选，表示图片运动一次后所暂停的时间，值为数字（可为小数），默认值为0
 ```javascript
-  new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1);
+  new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],250,0);
 ``` 
 ## 类名
   当文件加载到项目顶端的时候，会产生一个名为Broadcast的全局类名。
