@@ -24,11 +24,25 @@ HTML文件
 ```
 JavaScript文件
 ```javascript
-  Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1);
+  new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1);
 ```
 或者
 ```javascript
-  new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1);
+  Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1);
 ```
+## API
+  多参数注入
+  **第一个参数**
+   第一个参数为盒子，所有的Img元素会自动生成为其子元素。可支持输入选择器或者Dom元素。例：
+```HTML
+  <div id="box"></div>
+  <script>
+    var box = document.getElementById("box");
+    new Broadcast(box);
+    //或者
+    new Broadcast("#box");
+  </script>
+```
+
 
 
