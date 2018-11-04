@@ -6,4 +6,10 @@
 
 ![实例](./material/1.png)
 
+## 依赖：
+原生JS实现，无需任何依赖
+## 下载：
+```git
+  https://github.com/hubvue/BroadCast-3D.git
+```
 
