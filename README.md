@@ -6,7 +6,7 @@
 
 <iframe width="560" height="315" src="./material/1.wmv" frameborder="0" allowfullscreen></iframe>
  <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-         <source id="wmv" src="/material/1.wmv" type="video/wmv">
+         <source id="wmv" src="material/1.wmv" type="video/wmv">
  </video>
 
 
