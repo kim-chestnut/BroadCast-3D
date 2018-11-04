@@ -60,7 +60,7 @@ JavaScript文件
     
 **第四个参数**
 
-可选，表示图片运动一次后所暂停的时间，值为数字（可为小数），默认值为0
+可选，表示图片运动一次后所暂停的时间，值为数字（可为小数），以秒为单位，默认值为0
 ```javascript
   new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],250,0);
 ``` 
