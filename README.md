@@ -12,4 +12,9 @@
 ```git
   https://github.com/hubvue/BroadCast-3D.git
 ```
+或者点击上方 Clone or download
+## 使用
+```HTML
+  <script src="BroadCast-3D/BroadCast.js"> </script>
+```
 
