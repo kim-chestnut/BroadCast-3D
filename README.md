@@ -24,11 +24,11 @@ HTML文件
 ```
 JavaScript文件
 ```javascript
-  new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1);
+  new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1,100);
 ```
 或者
 ```javascript
-  Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1);
+  Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1,100);
 ```
 ## API
   多参数注入
@@ -63,6 +63,11 @@ JavaScript文件
 可选，表示图片运动一次后所暂停的时间，值为数字（可为小数），以秒为单位，默认值为0
 ```javascript
   new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],250,0);
+``` 
+**第五个参数**
+可选，表示图片的宽度（为了防止图片变形，以图片的宽度定图片的大小），值为数值，以px为单位，默认值为100
+```javascript
+  new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],250,0,100);
 ``` 
 ## 类名
   当文件加载到项目顶端的时候，会产生一个名为Broadcast的全局类名。
