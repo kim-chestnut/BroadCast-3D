@@ -65,6 +65,7 @@ JavaScript文件
   new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],250,0);
 ``` 
 **第五个参数**
+
 可选，表示图片的宽度（为了防止图片变形，以图片的宽度定图片的大小），值为数值，以px为单位，默认值为100
 ```javascript
   new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],250,0,100);
