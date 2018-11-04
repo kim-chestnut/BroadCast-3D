@@ -32,7 +32,8 @@ JavaScript文件
 ```
 ## API
   多参数注入
-  **第一个参数**
+  
+**第一个参数**
    第一个参数为盒子，所有的Img元素会自动生成为其子元素。可支持输入选择器或者Dom元素。例：
 ```HTML
   <div id="box"></div>
@@ -43,13 +44,26 @@ JavaScript文件
     new Broadcast("#box");
   </script>
 ```
-  **第二个参数**
-    第二个参数为数组类型，是引用图片url地址的数组集合。
-  **第三个参数**
-    可选，表示图片偏移半径。值为数字，默认值为250.
-  **第四个参数**
-    可选，表示图片运动一次后所暂停的时间，值为数字（可为小数），默认值为0
-   
+
+**第二个参数**
+
+第二个参数为数组类型，是引用图片url地址的数组集合。
+```javascript
+  new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"]);
+```  
+**第三个参数**
+
+可选，表示图片偏移半径。值为数字，默认值为250.
+```javascript
+  new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],250);
+```
+    
+**第四个参数**
+
+可选，表示图片运动一次后所暂停的时间，值为数字（可为小数），默认值为0
+```javascript
+  new Broadcast('#app', ["img/1.png","img/2.png","img/1.png","img/2.png","img/1.png","img/2.png","img/1.png", "img/2.png"],300,0.1);
+``` 
 ## 类名
   当文件加载到项目顶端的时候，会产生一个名为Broadcast的全局类名。
 
